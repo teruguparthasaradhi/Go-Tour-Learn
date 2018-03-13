@@ -1,0 +1,2 @@
+# learn
+go and git

@@ -1,6 +1,7 @@
 /*
 Written by:Parthasaradhi Terugu
 Practice of go from #tourofgo
+pushing this into git 13th march 2018 5:19 PM
 */
 
 package main

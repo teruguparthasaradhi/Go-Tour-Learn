@@ -1,7 +1,13 @@
 /*
 Written by:Parthasaradhi Terugu
 Practice of go from #tourofgo
+<<<<<<< HEAD
 */
+=======
+pushing this into git 13th march 2018 5:19 PM
+*/
+
+>>>>>>> 8e1630f27ec1d83d08ae47cf2e7a078e198eca27
 package main
 
 import (
@@ -517,6 +523,7 @@ func SlicesOfSlices() {
 	for i := 0; i < len(board); i++ {
 		//fmt.Printf("%s\n",Strings.Join(board[i]," ")
 		fmt.Printf("%s\n", strings.Join(board[i], " "))
+<<<<<<< HEAD
 
 	}
 }
@@ -727,6 +734,9 @@ func MapsExercise(){
 		a[word]++
 	}
 	fmt.Println(a)
+=======
+	}
+>>>>>>> 8e1630f27ec1d83d08ae47cf2e7a078e198eca27
 }
 func main() {
 
@@ -771,6 +781,7 @@ func main() {
 	SliceLengthCapacity()
 	SlicesWithMake()
 	SlicesOfSlices()
+<<<<<<< HEAD
 	SliceAppend()
 	//pic.Show(SlicesExercies)
 	RangeGo()
@@ -783,3 +794,8 @@ func main() {
 }
 
 //https://tour.golang.org/moretypes/21
+=======
+}
+
+//https://tour.golang.org/moretypes/6
+>>>>>>> 8e1630f27ec1d83d08ae47cf2e7a078e198eca27

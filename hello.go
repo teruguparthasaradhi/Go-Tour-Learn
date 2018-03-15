@@ -781,7 +781,6 @@ func main() {
 	SliceLengthCapacity()
 	SlicesWithMake()
 	SlicesOfSlices()
-<<<<<<< HEAD
 	SliceAppend()
 	//pic.Show(SlicesExercies)
 	RangeGo()
@@ -794,8 +793,8 @@ func main() {
 }
 
 //https://tour.golang.org/moretypes/21
-=======
+
 }
 
 //https://tour.golang.org/moretypes/6
->>>>>>> 8e1630f27ec1d83d08ae47cf2e7a078e198eca27
+

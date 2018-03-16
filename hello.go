@@ -2,12 +2,11 @@
 Written by:Parthasaradhi Terugu
 Practice of go from #tourofgo
 <<<<<<< HEAD
-*/
-=======
+
 pushing this into git 13th march 2018 5:19 PM
 */
 
->>>>>>> 8e1630f27ec1d83d08ae47cf2e7a078e198eca27
+
 package main
 
 import (
@@ -523,7 +522,7 @@ func SlicesOfSlices() {
 	for i := 0; i < len(board); i++ {
 		//fmt.Printf("%s\n",Strings.Join(board[i]," ")
 		fmt.Printf("%s\n", strings.Join(board[i], " "))
-<<<<<<< HEAD
+
 
 	}
 }
@@ -737,7 +736,7 @@ func MapsExercise(){
 
 	}
 
-}
+
 /*
 Function values
 Functions are values too.
@@ -746,10 +745,11 @@ Functions are values too.
 Function values may be used as function arguments and
  return values.
  */
- func compute(fn func(float64,float64)float64 float64{
-return fn(3,4)
- }
-)
+ func compute(fn func(float64, float64) float64) float64 {
+	return fn(3, 4)
+}
+
+
 func FunctionValues(){
 hypot:=func (x,y float64)float64{
 	return math.Sqrt(x*x+y*y)
@@ -816,7 +816,7 @@ func main() {
 
 //https://tour.golang.org/moretypes/24
 
-}
+
 
 //https://tour.golang.org/moretypes/6
 

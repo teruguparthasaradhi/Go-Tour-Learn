@@ -734,9 +734,30 @@ func MapsExercise(){
 		a[word]++
 	}
 	fmt.Println(a)
-=======
+
 	}
->>>>>>> 8e1630f27ec1d83d08ae47cf2e7a078e198eca27
+
+}
+/*
+Function values
+Functions are values too.
+ They can be passed around just like other values.
+
+Function values may be used as function arguments and
+ return values.
+ */
+ func compute(fn func(float64,float64)float64 float64{
+return fn(3,4)
+ }
+)
+func FunctionValues(){
+hypot:=func (x,y float64)float64{
+	return math.Sqrt(x*x+y*y)
+}
+fmt.Println(hypot(5,12))
+fmt.Println(compute(hypot))
+fmt.Println(compute(math.Pow))
+
 }
 func main() {
 
@@ -790,9 +811,10 @@ func main() {
 	MUtatingMaps()
 	//https://tour.golang.org/moretypes/23
 	MapsExercise()
+	FunctionValues()
 }
 
-//https://tour.golang.org/moretypes/21
+//https://tour.golang.org/moretypes/24
 
 }
 
